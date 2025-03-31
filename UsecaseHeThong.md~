@@ -3952,7 +3952,7 @@
 							client     	@166
 							supplier   	@165
 							vertices   	(list Points
-							    (831, 485)
+							    (905, 432)
 							    (465, 742))
 							line_style 	0)
 						    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::BackendLV2::BackendLV3::DeleteSpecification" @169
@@ -4077,7 +4077,7 @@
 							supplier   	@165
 							vertices   	(list Points
 							    (981, 1098)
-							    (711, 962))
+							    (590, 900))
 							line_style 	0)
 						    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::BackendLV2::BackendLV3::ViewAllSpecificationsBE" @175
 							location   	(1075, 1550)
@@ -4194,7 +4194,7 @@
 								supplier   	@166
 								vertices   	(list Points
 								    (1416, 534)
-								    (1336, 485))
+								    (1218, 415))
 								line_style 	0)
 							    (object RoleView "$UNNAMED$59" @181
 								Parent_View 	@179
@@ -4245,7 +4245,7 @@
 								supplier   	@178
 								vertices   	(list Points
 								    (1407, 717)
-								    (1615, 694))
+								    (1614, 695))
 								line_style 	0)))
 						    (object AssociationViewNew "$UNNAMED$63" @185
 							location   	(1385, 916)
@@ -4272,7 +4272,7 @@
 								supplier   	@172
 								vertices   	(list Points
 								    (1385, 916)
-								    (1158, 1096))
+								    (1157, 1097))
 								line_style 	0)
 							    (object RoleView "$UNNAMED$65" @187
 								Parent_View 	@185
@@ -4284,10 +4284,10 @@
 								supplier   	@178
 								vertices   	(list Points
 								    (1385, 916)
-								    (1616, 734))
+								    (1614, 736))
 								line_style 	0)))
 						    (object AssociationViewNew "$UNNAMED$66" @188
-							location   	(1314, 1206)
+							location   	(1349, 1155)
 							font       	(object Font
 							    size       	10
 							    face       	"Arial"
@@ -4303,33 +4303,33 @@
 							roleview_list 	(list RoleViews
 							    (object RoleView "$UNNAMED$67" @189
 								Parent_View 	@188
-								location   	(-361, 515)
+								location   	(-326, 464)
 								stereotype 	TRUE
 								line_color 	3342489
 								quidu      	"67DFD2EC01D2"
 								client     	@188
 								supplier   	@175
 								vertices   	(list Points
-								    (1314, 1206)
+								    (1349, 1155)
 								    (1111, 1492))
 								line_style 	0)
 							    (object RoleView "$UNNAMED$68" @190
 								Parent_View 	@188
-								location   	(-361, 515)
+								location   	(-326, 464)
 								stereotype 	TRUE
 								line_color 	3342489
 								quidu      	"67DFD2EC01D4"
 								client     	@188
 								supplier   	@178
 								vertices   	(list Points
-								    (1314, 1206)
-								    (1588, 817))
+								    (1349, 1155)
+								    (1588, 819))
 								line_style 	0))))))))
 				logical_presentations 	(list unit_reference_list
 				    (object UseCaseDiagram "PhanraManageCars"
 					quid       	"67D9225B02D0"
 					title      	"PhanraManageCars"
-					zoom       	100
+					zoom       	75
 					max_height 	28350
 					max_width  	21600
 					origin_x   	0
@@ -4700,7 +4700,7 @@
 					zoom       	100
 					max_height 	28350
 					max_width  	21600
-					origin_x   	0
+					origin_x   	1683
 					origin_y   	0
 					items      	(list diagram_item_list
 					    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::Login Backend" @211
@@ -4799,7 +4799,7 @@
 						    (767, 808))
 						line_style 	0)
 					    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::BackendLV2::ManageActiveUsers" @215
-						location   	(2077, 443)
+						location   	(2093, 393)
 						font       	(object Font
 						    size       	10
 						    face       	"Arial"
@@ -4811,7 +4811,7 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@215
-						    location   	(2077, 581)
+						    location   	(2093, 531)
 						    anchor_loc 	1
 						    nlines     	2
 						    max_width  	630
@@ -4822,7 +4822,7 @@
 						fill_color 	13434879
 						quidu      	"67DCDBE50294")
 					    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::BackendLV2::ManageBannedUsers" @216
-						location   	(2146, 871)
+						location   	(2123, 784)
 						font       	(object Font
 						    size       	10
 						    face       	"Arial"
@@ -4834,7 +4834,7 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@216
-						    location   	(2146, 1009)
+						    location   	(2123, 922)
 						    anchor_loc 	1
 						    nlines     	2
 						    max_width  	630
@@ -4856,7 +4856,7 @@
 						    default_color 	TRUE)
 						stereotype 	(object SegLabel @218
 						    Parent_View 	@217
-						    location   	(1709, 606)
+						    location   	(1711, 586)
 						    font       	(object Font
 							size       	10
 							face       	"Arial"
@@ -4880,8 +4880,8 @@
 						client     	@215
 						supplier   	@212
 						vertices   	(list Points
-						    (1898, 550)
-						    (1553, 756))
+						    (1914, 510)
+						    (1545, 755))
 						line_style 	0)
 					    (object DependencyView "extend" @219
 						font       	(object Font
@@ -4895,7 +4895,7 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@219
-						    location   	(1802, 839)
+						    location   	(1790, 797)
 						    anchor_loc 	1
 						    nlines     	1
 						    max_width  	136
@@ -4907,11 +4907,11 @@
 						client     	@216
 						supplier   	@212
 						vertices   	(list Points
-						    (2034, 858)
-						    (1570, 820))
+						    (2011, 786)
+						    (1570, 808))
 						line_style 	0)
 					    (object UseCaseView "Use Case View::UseCaseHeThong::Backend::BackendLV1::BackendLV2::ManageSoftDeletedUsers" @220
-						location   	(2033, 1290)
+						location   	(2165, 1237)
 						font       	(object Font
 						    size       	10
 						    face       	"Arial"
@@ -4923,7 +4923,7 @@
 						    default_color 	TRUE)
 						label      	(object ItemLabel
 						    Parent_View 	@220
-						    location   	(2033, 1428)
+						    location   	(2165, 1375)
 						    anchor_loc 	1
 						    nlines     	2
 						    max_width  	630
@@ -4945,7 +4945,7 @@
 						    default_color 	TRUE)
 						stereotype 	(object SegLabel @222
 						    Parent_View 	@221
-						    location   	(1750, 1117)
+						    location   	(1810, 1080)
 						    font       	(object Font
 							size       	10
 							face       	"Arial"
@@ -4969,8 +4969,8 @@
 						client     	@220
 						supplier   	@212
 						vertices   	(list Points
-						    (1964, 1232)
-						    (1587, 917))
+						    (2068, 1177)
+						    (1587, 888))
 						line_style 	0))))))
 			logical_presentations 	(list unit_reference_list
 			    (object UseCaseDiagram "UsecaseBackend"
@@ -5361,10 +5361,10 @@
 			    (object UseCaseDiagram "UsecaseFrontend"
 				quid       	"67D9233301B0"
 				title      	"UsecaseFrontend"
-				zoom       	80
+				zoom       	90
 				max_height 	28350
 				max_width  	21600
-				origin_x   	0
+				origin_x   	1250
 				origin_y   	0
 				items      	(list diagram_item_list
 				    (object UseCaseView "Use Case View::UseCaseHeThong::Frontend::FrontendLV1::Login FrontEnd" @238
@@ -5516,7 +5516,7 @@
 						supplier   	@238
 						vertices   	(list Points
 						    (1197, 1052)
-						    (1755, 1117))
+						    (1755, 1116))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$92" @245
 						Parent_View 	@243
@@ -5528,7 +5528,7 @@
 						supplier   	@242
 						vertices   	(list Points
 						    (1197, 1052)
-						    (640, 989))
+						    (640, 988))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$93" @246
 					location   	(1199, 1203)
@@ -5594,7 +5594,7 @@
 						supplier   	@240
 						vertices   	(list Points
 						    (1209, 1344)
-						    (1781, 1673))
+						    (1778, 1672))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$98" @251
 						Parent_View 	@249
@@ -5606,7 +5606,7 @@
 						supplier   	@242
 						vertices   	(list Points
 						    (1209, 1344)
-						    (640, 1015))
+						    (640, 1016))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$99" @252
 					location   	(1229, 1511)
@@ -5633,7 +5633,7 @@
 						supplier   	@241
 						vertices   	(list Points
 						    (1229, 1511)
-						    (1821, 1994))
+						    (1819, 1992))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$101" @254
 						Parent_View 	@252
@@ -5645,7 +5645,7 @@
 						supplier   	@242
 						vertices   	(list Points
 						    (1229, 1511)
-						    (640, 1030))
+						    (640, 1031))
 						line_style 	0)))
 				    (object UseCaseView "Use Case View::UseCaseHeThong::Frontend::FrontendLV1::Register" @255
 					location   	(1834, 111)
@@ -5782,7 +5782,7 @@
 						supplier   	@255
 						vertices   	(list Points
 						    (1179, 259)
-						    (1513, 180))
+						    (1724, 133))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$104" @262
 						Parent_View 	@260
@@ -5794,7 +5794,7 @@
 						supplier   	@258
 						vertices   	(list Points
 						    (1179, 259)
-						    (634, 387))
+						    (634, 386))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$105" @263
 					location   	(1188, 428)
@@ -5821,7 +5821,7 @@
 						supplier   	@256
 						vertices   	(list Points
 						    (1188, 428)
-						    (1744, 452))
+						    (1742, 452))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$107" @265
 						Parent_View 	@263
@@ -5833,7 +5833,7 @@
 						supplier   	@258
 						vertices   	(list Points
 						    (1188, 428)
-						    (634, 403))
+						    (634, 404))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$108" @266
 					location   	(1191, 590)
@@ -5878,7 +5878,7 @@
 		    (object UseCaseDiagram "Main"
 			quid       	"67D91F480126"
 			title      	"Main"
-			zoom       	90
+			zoom       	70
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
